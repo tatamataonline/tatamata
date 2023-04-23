@@ -1,0 +1,153 @@
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    color: blue;
+    text-align: center;
+  }
+  
+  .image1 {
+    float: left ;
+    margin: 10px 20px 20px 0;
+    animation: slide-in-left 1s ease-in-out;
+  }
+  
+  @keyframes slide-in-left {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  #p1 {
+    font-size: 30px;
+    color: blue;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 0.3;
+    animation: slide-in-right 1s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  #p2 {
+    font-size: 35px;
+    color: rgb(136, 120, 120);
+    font-family: sans-serif;
+    margin-bottom: 0 ;
+    text-align: left;
+    line-height: 0.3;
+    animation: slide-in-right 1s ease-in-out;
+  }
+  
+  #p3 {
+    font-size: 30px;
+    color: blue;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 0.3;
+    animation: slide-in-right 1s ease-in-out;
+  }
+  
+  #p4 {
+    font-size: 22px;
+    color: rgb(136, 120, 120);
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 1.0;
+    animation: slide-in-right 1s ease-in-out;
+  }
+  
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  #p5 {
+    font-size: 30px;
+    color: blue;
+    font-family: sans-serif;
+    line-height: 0.3;
+    animation: slide-in-right 1s ease-in-out;
+    margin: 100px 0 0 0;
+  }
+  
+  #p6 {
+    animation: slide-in-right 1s ease-in-out;
+    color: brown;
+  }
+
+  #p7 {
+    margin: -150px 0 0 650px;
+    animation: slide-in-left 1s ease-in-out;
+    color: brown;
+  }
+  
+  body {
+    background-color: rgb(30,30,40) ;
+  }
+
+  .image2 {
+    margin: 100px 20px 20px 840px;
+
+
+  }
+
+  #p8 {
+    font-size: 30px;
+    color: blue;
+    font-family: sans-serif;
+    line-height: 0.3 ;
+   
+  }
+
+  #p9 {
+    font-size: 35px;
+    color: rgb(136, 120, 120);
+    font-family: sans-serif ;
+    line-height: 0.3;
+  }
+
+  #p10 {
+    font-size: 30px;
+    color: blue;
+    font-family: sans-serif;
+    line-height: 0.3;
+
+  }
+
+  .doktor2 {
+       margin-top: -600px;
+  }
+
+  #p11 {
+    font-size: 22px;
+    color: rgb(136, 120, 120);
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 1.0;
+    animation: slide-in-right 1s ease-in-out;
+  }
+  #p12 {
+    font-size: 30px;
+    color: blue;
+    font-family: sans-serif;
+    line-height: 3.0;
+  }
+
+  #p13{
+    color: brown;
+  }
+
+  
+
+  
+
